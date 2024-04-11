@@ -513,7 +513,8 @@
       {
         "__resolveType": "site/sections/MainPost.tsx",
         "post": {
-          "__resolveType": "blog/loaders/BlogPostItem.ts"
+          "__resolveType": "blog/loaders/BlogPostItem.ts",
+          "slug": ""
         }
       },
       {
@@ -524,7 +525,8 @@
         }
       },
       {
-        "__resolveType": "site/sections/Footer.tsx"
+        "__resolveType": "site/sections/Footer.tsx",
+        "subscribe": {}
       }
     ],
     "__resolveType": "website/pages/Page.tsx",
@@ -561,5 +563,8 @@
     "theme": {
       "__resolveType": "Neutral"
     }
+  },
+  "Preview website/actions/secrets/encrypt.ts": {
+    "__resolveType": "website/actions/secrets/encrypt.ts"
   }
 }
